@@ -1,0 +1,22 @@
+{
+  "name": "ticket_ecommerce_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd ui && npm run start",
+    "build": "cd ui && npm run build",
+    "test": "cd ui && react-scripts test",
+    "eject": "cd ui && react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwf410918701/Block-Chain-Ticket-Ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwf410918701/Block-Chain-Ticket-Ecommerce/issues"
+  },
+  "homepage": "https://github.com/wwf410918701/Block-Chain-Ticket-Ecommerce#readme"
+}
