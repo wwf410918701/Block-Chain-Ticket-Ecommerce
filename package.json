@@ -7,7 +7,8 @@
     "start": "cd ui && npm run start",
     "build": "cd ui && npm run build",
     "test": "cd ui && react-scripts test",
-    "eject": "cd ui && react-scripts eject"
+    "eject": "cd ui && react-scripts eject",
+    "heroku-postbuild": "cd ui && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "repository": {
     "type": "git",
