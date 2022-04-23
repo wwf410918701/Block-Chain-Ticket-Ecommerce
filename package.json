@@ -2,7 +2,9 @@
   "name": "ticket_ecommerce_project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "engines": {
+    "npm": "6.14.14"
+  },
   "scripts": {
     "start": "cd ui && npm run start",
     "build": "cd ui && npm run build",
