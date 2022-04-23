@@ -1,0 +1,1 @@
+export const radiusButton = {borderRadius: '50px'};

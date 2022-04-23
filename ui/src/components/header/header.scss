@@ -1,0 +1,20 @@
+@import '../../index.scss';
+
+.header-item {
+  color: $third-black;
+}
+
+.header-item-group {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.dynamicColorButton {
+  background-image: linear-gradient(to right, rgb(255, 0, 184) 0%, rgb(100, 161, 255) 50%, rgb(0, 102, 255) 100%);
+  background-size: 200%;
+  border: 0px;
+  transition: all 0.5s ease-in-out 0s;
+  border-radius: 50%;
+}
+
